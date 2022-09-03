@@ -1,4 +1,4 @@
-package com.zhao.module.system.dto;
+package com.zhao.module.system.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

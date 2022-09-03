@@ -1,7 +1,7 @@
 package com.zhao.module.security.domain;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import com.zhao.module.system.dto.User;
+import com.zhao.module.system.entity.User;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;

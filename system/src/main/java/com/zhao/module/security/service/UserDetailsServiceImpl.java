@@ -1,10 +1,10 @@
 package com.zhao.module.security.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.zhao.mapper.MenuMapper;
+import com.zhao.module.system.mapper.MenuMapper;
 import com.zhao.module.security.domain.LoginUserDetail;
-import com.zhao.module.system.dto.User;
-import com.zhao.mapper.UserMapper;
+import com.zhao.module.system.entity.User;
+import com.zhao.module.system.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

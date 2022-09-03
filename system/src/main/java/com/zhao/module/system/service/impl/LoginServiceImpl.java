@@ -3,7 +3,7 @@ package com.zhao.module.system.service.impl;
 import com.zhao.module.security.domain.LoginUserDetail;
 import com.zhao.module.security.domain.LoginUserInfo;
 import com.zhao.module.system.domain.monitor.ResponseResult;
-import com.zhao.module.system.dto.User;
+import com.zhao.module.system.entity.User;
 import com.zhao.utils.JwtUtil;
 import com.zhao.module.system.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;

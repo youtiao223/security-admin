@@ -1,8 +1,8 @@
 package com.zhao;
 
-import com.zhao.module.system.dto.User;
-import com.zhao.mapper.MenuMapper;
-import com.zhao.mapper.UserMapper;
+import com.zhao.module.system.entity.User;
+import com.zhao.module.system.mapper.MenuMapper;
+import com.zhao.module.system.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
