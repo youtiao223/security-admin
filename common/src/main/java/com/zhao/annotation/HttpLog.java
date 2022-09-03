@@ -1,4 +1,4 @@
-package com.zhao.log.annotation;
+package com.zhao.annotation;
 
 
 import java.lang.annotation.ElementType;

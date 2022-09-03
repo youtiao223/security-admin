@@ -1,4 +1,4 @@
-package com.zhao.log;
+package com.zhao;
 
 import cn.hutool.core.util.StrUtil;
 import lombok.Data;

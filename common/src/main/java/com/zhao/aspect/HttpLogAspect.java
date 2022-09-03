@@ -1,6 +1,6 @@
-package com.zhao.log.aspect;
+package com.zhao.aspect;
 
-import com.zhao.log.HttpLog;
+import com.zhao.HttpLog;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 public class HttpLogAspect {
 
 
-    @Pointcut("@annotation(com.zhao.log.annotation.HttpLog)")
+    @Pointcut("@annotation(com.zhao.annotation.HttpLog)")
     public void pta() {};
 
     @Pointcut("execution(public * com.zhao.module.system.controller..*.*(..))")

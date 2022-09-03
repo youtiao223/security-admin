@@ -1,7 +1,7 @@
 package com.zhao.module.security.handler;
 
 import com.alibaba.fastjson.JSON;
-import com.zhao.log.annotation.HttpLog;
+import com.zhao.annotation.HttpLog;
 import com.zhao.module.system.domain.monitor.ResponseResult;
 import com.zhao.utils.WebUtils;
 import org.springframework.http.HttpStatus;

@@ -3,7 +3,7 @@ package com.zhao.exception.handler;
 import com.zhao.exception.BadRequestException;
 import com.zhao.exception.EntityExistException;
 import com.zhao.exception.EntityNotFoundException;
-import com.zhao.log.annotation.HttpLog;
+import com.zhao.annotation.HttpLog;
 import com.zhao.utils.ThrowableUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
